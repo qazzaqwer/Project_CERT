@@ -4,66 +4,76 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/bootstrap.min.css" href integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/bootstrap.min.css" href
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
   <link rel="stylesheet" href="style.css">
   <title>เว็บไซต์คำนวนภาษี</title>
 </head>
+
 <body>
   <div id="header" class="container-fluid border border-dark"><br>
-    <h3 class="d-flex justify-content-center">เว็บไซต์คำนวนภาษีเบื้องต้น</h3>
+    <h3>เว็บไซต์คำนวนภาษีเบื้องต้น</h3>
   </div>
-  <br> 
+  <br>
 
-<div class="container-fluid" id="input_form" style="width: 50rem;">
+  <div class="container-fluid" id="input_form" style="width: 50rem;">
     <br>
     <div class="col-xl-12">
       <div class="card" style="background-color: aquamarine;">
         <h6 class="ml-3"><i class="mdi mdi-note-text mdi-24px ">
             <div class="card-body">
-                  <h5 class="d-flex justify-content-center text-success ">กรุณากรอกข้อมูลของคุณ</h5>
+              <h5 class="d-flex justify-content-center"><b>กรุณากรอกข้อมูลของคุณ</b></h5>
+
               <form>
                 <div class="form-group row">
                   <label for="exampleFormControlInput1" class="col-sm-3 col-form-label">เงินเดือนรวมของคุณ : </label>
                   <div class="col-sm-9">
-                    <input type="text" class="form-control" id="note" name="note">
+                    <input type="text" class="form-control" id="summary" name="summary">
                   </div>
                 </div>
 
                 <div class="form-group row">
                   <label for="exampleFormControlInput1" class="col-sm-3 col-form-label">เงินพิเศษ : </label>
                   <div class="col-sm-9">
-                    <input type="text" class="form-control" id="id-card" minlength="13">
+                    <input type="text" class="form-control" id="allowance" name="allowance">
                   </div>
                 </div>
 
                 <div class="form-group row">
                   <label for="note" class="col-sm-3 col-form-label">ค่าประกันชีวิต : </label>
                   <div class="col-sm-9">
-                    <input type="text" class="form-control" id="note" name="note">
+                    <input type="text" class="form-control" id="insurance" name="insurance">
                   </div>
                 </div>
 
                 <div class="form-group row">
                   <label for="track" class="col-sm-3 col-form-label">ค่าสาธารณูปโภค : </label>
                   <div class="col-sm-9">
-                    <input type="text" class="form-control" id="track" name="track">
+                    <input type="text" class="form-control" id="General expenses" name="General expenses">
                   </div>
                 </div>
                 <br>
                 <div>
-                <button class="btn btn-primary" type="submit">คำนวนภาษี</button>
-                <button class="btn btn-primary" type="reset">เริ่มต้นใหม่</button>
-              </div>
+                  <button class="btn btn-primary" type="submit">คำนวนภาษี</button>
+                  <button class="btn btn-primary" type="reset">เริ่มต้นใหม่</button>
+                </div>
               </form>
             </div>
-</div>
+      </div>
 
 
 
       <script src="app.js"></script>
-      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
