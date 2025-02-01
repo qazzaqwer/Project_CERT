@@ -1,6 +1,3 @@
-function message() {
-  alert('ภาษีของคุณคือ 0 บาท');
-}
 
 // ฟังก์ชันเปิด Modal
 function openModal() {
