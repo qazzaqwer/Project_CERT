@@ -62,3 +62,8 @@ h5{
 .close:hover {
   color: darkred;
 }
+
+.modal-content p {
+  margin: 0;
+  text-align: left;
+} 

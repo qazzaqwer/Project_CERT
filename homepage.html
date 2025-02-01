@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/bootstrap.min.css" href
+  <link rel="stylesheet" href="css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
   <link rel="stylesheet" href="style.css">
@@ -21,41 +21,50 @@
     <br>
     <div class="col-xl-12">
       <div class="card" style="background-color: rgba(118, 141, 133, 0.651);">
-        <h6 class="ml-3"><i class="mdi mdi-note-text mdi-24px ">
+        <h6 class="ml-3">
+          <i class="mdi mdi-note-text mdi-24px ">
             <div class="card-body">
-              <h5 class="d-flex justify-content-center"><b>กรุณากรอกข้อมูลของคุณ</b></h5>
+              <h5 class="d-flex justify-content-center">
+                <b>กรุณากรอกข้อมูลของคุณ</b>
+              </h5>
 
               <form>
                 <div class="form-group row">
-                  <label for="exampleFormControlInput1" class="col-sm-4 col-form-label">เงินลดหน่อยส่วนบุคคล : </label>
+                  <label for="exampleFormControlInput1" class="col-sm-4 col-form-label">เงินลดหย่อนตั้งต้น :
+                  </label>
                   <div class="col-sm-8">
-                    <input type="text" class="form-control" id="summary" name="summary" value="60,000" readonly>
+                    <input type="text" class="form-control" id="summary" name="summary" value="60,000"
+                      readonly="readonly">
                   </div>
                 </div>
 
                 <div class="form-group row">
-                  <label for="exampleFormControlInput1" class="col-sm-4 col-form-label">เงินเดือนรวมของคุณ : </label>
+                  <label for="exampleFormControlInput1" class="col-sm-4 col-form-label">เงินเดือนรวมของคุณ :
+                  </label>
                   <div class="col-sm-8">
                     <input type="text" class="form-control" id="summary" name="summary">
                   </div>
                 </div>
 
                 <div class="form-group row">
-                  <label for="exampleFormControlInput1" class="col-sm-4 col-form-label">เงินพิเศษ : </label>
+                  <label for="exampleFormControlInput1" class="col-sm-4 col-form-label">เงินพิเศษ :
+                  </label>
                   <div class="col-sm-8">
                     <input type="text" class="form-control" id="allowance" name="allowance">
                   </div>
                 </div>
 
                 <div class="form-group row">
-                  <label for="note" class="col-sm-4 col-form-label">ค่าประกันชีวิต : </label>
+                  <label for="note" class="col-sm-4 col-form-label">ค่าประกันชีวิต :
+                  </label>
                   <div class="col-sm-8">
                     <input type="text" class="form-control" id="insurance" name="insurance">
                   </div>
                 </div>
 
                 <div class="form-group row">
-                  <label for="track" class="col-sm-4 col-form-label">ค่าสาธารณูปโภค : </label>
+                  <label for="track" class="col-sm-4 col-form-label">ค่าสาธารณูปโภค :
+                  </label>
                   <div class="col-sm-8">
                     <input type="text" class="form-control" id="General expenses" name="General expenses">
                   </div>
@@ -70,17 +79,13 @@
       </div>
     </div>
   </div>
-
   <div id="myModal" class="modal">
     <div class="modal-content">
       <span class="close" onclick="closeModal()">&times;</span>
-      <p>นี่คือข้อความใน Modal!</p>
+      <p>คุณต้องเสียภาษีทั้งหมด : </p>
+      <p>คุณได้รับเงินคืนเป็นจำนวน : </p>
     </div>
   </div>
-
-
-
-
 
   <script src="app.js"></script>
 </body>
