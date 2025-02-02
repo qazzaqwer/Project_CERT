@@ -1,11 +1,21 @@
+body {
+    color: #5f6a6a;
+}
+
 #header {
     background-color: #accfd1;
     text-align: center;
 }
-
+h3{
+  color: #2471a3;
+}
 h5{
   height: 50px;
-  
+  color: #2471a3;
+}
+
+form{
+  color: #2471a3;
 }
 
 .btn{
